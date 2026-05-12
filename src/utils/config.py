@@ -4,17 +4,17 @@
 # Pixel coordinates of your game window.
 # We will update these after running calibrate.py
 CAPTURE_REGION = {
-    "top":    100,
-    "left":   100,
-    "width":  1280,
-    "height": 720
+    "top":    50,
+    "left":   9,
+    "width":  941,
+    "height": 965
 }
 
 # ── PIG COLOR DETECTION ───────────────────────────────────────
 # HSV color range for pig-green color
 # Format: (Hue, Saturation, Value)
-PIG_HSV_LOWER = (30, 50, 50)
-PIG_HSV_UPPER = (85, 255, 255)
+PIG_HSV_LOWER = (27, 190, 60)
+PIG_HSV_UPPER = (62, 255, 255)
 
 # Minimum pixel area to count as a pig (filters out noise)
 MIN_PIG_AREA = 300
