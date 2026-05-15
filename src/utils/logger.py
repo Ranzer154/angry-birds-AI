@@ -13,10 +13,10 @@ def get_logger(name: str) -> logging.Logger:
     if logger.handlers:
         return logger
 
-    logger.setLevel(logging.DEBUG)
+    logger.setLevel(logging.WARNING)
 
     handler = logging.StreamHandler()
-    handler.setLevel(logging.DEBUG)
+    handler.setLevel(logging.WARNING)
 
     fmt = logging.Formatter(
         "[%(asctime)s] [%(name)-20s] %(levelname)-8s %(message)s",

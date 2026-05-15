@@ -13,7 +13,7 @@ PIG_HSV_UPPER = (61, 255, 255)
 
 MIN_PIG_AREA = 500
 
-DISPLAY_SCALE = 0.8
+DISPLAY_SCALE = 1.2
 
 WINDOW_NAME = "Angry Birds AI — Debug View"
 
